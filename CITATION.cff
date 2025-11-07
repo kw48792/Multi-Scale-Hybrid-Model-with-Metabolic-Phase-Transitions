@@ -1,0 +1,19 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+type: software
+title: "Multi-Scale Hybrid Model with Metabolic Phase Transitions"
+abstract: "Code for Multi-Scale Hybrid Modeling to Predict Cell Culture Process with Metabolic Phase Transitions"
+authors:
+  - family-names: "[Last Name]"
+    given-names: "[First Name]"
+    # orcid: "https://orcid.org/0000-0000-0000-0000"
+repository-code: "https://github.com/kw48792/Multi-Scale-Hybrid-Model-with-Metabolic-Phase-Transitions"
+url: "https://github.com/kw48792/Multi-Scale-Hybrid-Model-with-Metabolic-Phase-Transitions"
+keywords:
+  - multi-scale modeling
+  - hybrid modeling
+  - cell culture
+  - metabolic phase transitions
+  - bioprocess engineering
+license: MIT
+# date-released: 2025-11-07
