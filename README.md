@@ -6,18 +6,6 @@ This repository contains the code and data used in the journal paper: **"Multi-S
 
 This project implements a multi-scale hybrid modeling approach for predicting cell culture processes with metabolic phase transitions. The model combines mechanistic and data-driven approaches to capture complex cellular behaviors during bioprocessing.
 
-## Repository Structure
-
-```
-├── src/                    # Source code for the hybrid model
-├── data/                   # Data files and datasets
-│   ├── raw/               # Raw experimental data
-│   └── processed/         # Processed data for modeling
-├── examples/              # Example scripts and notebooks
-├── docs/                  # Additional documentation
-├── requirements.txt       # Python dependencies
-└── README.md             # This file
-```
 
 ## Installation
 
