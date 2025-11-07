@@ -7,7 +7,10 @@ pandas>=1.3.0
 
 # Machine learning and modeling
 scikit-learn>=1.0.0
-tensorflow>=2.6.0  # or pytorch>=1.9.0
+# Deep learning framework - choose one:
+# tensorflow>=2.6.0
+# pytorch>=1.9.0
+# Note: Uncomment and install the framework you need
 
 # Visualization
 matplotlib>=3.4.0

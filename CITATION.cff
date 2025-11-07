@@ -4,8 +4,8 @@ type: software
 title: "Multi-Scale Hybrid Model with Metabolic Phase Transitions"
 abstract: "Code for Multi-Scale Hybrid Modeling to Predict Cell Culture Process with Metabolic Phase Transitions"
 authors:
-  - family-names: "[Last Name]"
-    given-names: "[First Name]"
+  - family-names: "AUTHOR_SURNAME"
+    given-names: "AUTHOR_GIVEN_NAME"
     # orcid: "https://orcid.org/0000-0000-0000-0000"
 repository-code: "https://github.com/kw48792/Multi-Scale-Hybrid-Model-with-Metabolic-Phase-Transitions"
 url: "https://github.com/kw48792/Multi-Scale-Hybrid-Model-with-Metabolic-Phase-Transitions"

@@ -13,8 +13,8 @@ with open("requirements.txt", "r", encoding="utf-8") as fh:
 setup(
     name="multiscale-hybrid-model",
     version="1.0.0",
-    author="[Author Names]",
-    author_email="[author@email.com]",
+    author="TODO: Add author names",
+    author_email="TODO: Add author email",
     description="Multi-Scale Hybrid Modeling for Cell Culture with Metabolic Phase Transitions",
     long_description=long_description,
     long_description_content_type="text/markdown",
