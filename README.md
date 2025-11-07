@@ -2,26 +2,41 @@
 
 Multi-scale hybrid modeling framework to predict CHO cell culture dynamics with metabolic phase transitions
 
-This repository contains Python scripts and data required to reproduce the modeling, prediction, and visualization results described in the manuscript “Multi-Scale Hybrid Modeling for CHO Cell Culture Processes with Metabolic Phase Transitions.”
+This repository contains Python scripts and data required to reproduce the modeling, prediction, and visualization results described in the manuscript “Multi-Scale Hybrid Modeling to Predict Cell Culture Process with Metabolic Phase Transitions.”
 
 
+📂 Repository Overview
 DataViz.py
-For Figure Reltaed to Cell Culutre profile dynamics Generation
 
-OTR.py 
-For SG filter application to Oxygen uptake rate.
+Generates figures related to cell culture dynamic profiles and model predictions.
+
+OTR.py
+
+Applies the Savitzky–Golay (SG) filter to smooth the oxygen uptake rate (OUR) trajectory.
 
 pH.py
-For SG filter application to Oxygen uptake rate.
+
+Applies the Savitzky–Golay (SG) filter to smooth the pH trajectory.
 
 State_Shift_Pred_A.py
-Use params_A1.pkl to prediction Case A
+
+Uses params_A1.pkl to predict dynamic trajectories for Case A.
 
 State_Shift_Pred_B.py
-Use params_B.pkl to prediction Case B
+
+Uses params_B.pkl to predict dynamic trajectories for Case B.
 
 State_Shift_Pred_C.py
-Use params_C.pkl to prediction Case C
+
+Uses params_C.pkl to predict dynamic trajectories for Case C.
 
 State_Shift_Pred_PI.py
-Generate the Prediction ERROr WAPE and PI
+
+Generates prediction errors (WAPE) and 95% prediction intervals (PI) across all cases.
+
+
+⚙️ Requirements
+
+Python ≥ 3.8
+
+numpy, scipy, pandas, matplotlib, lmfit
