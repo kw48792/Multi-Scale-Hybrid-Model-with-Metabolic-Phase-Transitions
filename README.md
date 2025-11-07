@@ -70,7 +70,3 @@ If you use this code in your research, please cite:
 ## Contact
 
 For questions or issues, please open an issue on GitHub or contact the authors.
-
-## Acknowledgments
-
-This work was developed to support the journal publication and is made available in response to reviewer requirements for reproducibility.
