@@ -1,42 +1,61 @@
-🧬 Multi-Scale Hybrid Model with Metabolic Phase Transitions
+# Multi-Scale Hybrid Model with Metabolic Phase Transitions
 
-Multi-scale hybrid modeling framework to predict CHO cell culture dynamics with metabolic phase transitions
+This repository contains the code and data used in the journal paper: **"Multi-Scale Hybrid Modeling to Predict Cell Culture Process with Metabolic Phase Transitions"**
 
-This repository contains Python scripts and data required to reproduce the modeling, prediction, and visualization results described in the manuscript “Multi-Scale Hybrid Modeling to Predict Cell Culture Process with Metabolic Phase Transitions.”
+## Overview
 
+This project implements a multi-scale hybrid modeling approach for predicting cell culture processes with metabolic phase transitions. The model combines mechanistic and data-driven approaches to capture complex cellular behaviors during bioprocessing.
 
-📂 Repository Overview
-DataViz.py
+## Repository Structure
 
-Generates figures related to cell culture dynamic profiles and model predictions.
+```
+├── src/                    # Source code for the hybrid model
+├── data/                   # Data files and datasets
+│   ├── raw/               # Raw experimental data
+│   └── processed/         # Processed data for modeling
+├── examples/              # Example scripts and notebooks
+├── docs/                  # Additional documentation
+├── requirements.txt       # Python dependencies
+└── README.md             # This file
+```
 
-OTR.py
+## Installation
 
-Applies the Savitzky–Golay (SG) filter to smooth the oxygen uptake rate (OUR) trajectory.
+1. Clone this repository:
+```bash
+git clone https://github.com/kw48792/Multi-Scale-Hybrid-Model-with-Metabolic-Phase-Transitions.git
+cd Multi-Scale-Hybrid-Model-with-Metabolic-Phase-Transitions
+```
 
-pH.py
+2. Install the required dependencies:
+```bash
+pip install -r requirements.txt
+```
 
-Applies the Savitzky–Golay (SG) filter to smooth the pH trajectory.
+## Usage
 
-State_Shift_Pred_A.py
+[To be added: Instructions for running the model and reproducing the results]
 
-Uses params_A1.pkl to predict dynamic trajectories for Case A.
+## Data
 
-State_Shift_Pred_B.py
+[To be added: Description of the datasets used in the study]
 
-Uses params_B.pkl to predict dynamic trajectories for Case B.
+## Citation
 
-State_Shift_Pred_C.py
+If you use this code in your research, please cite:
 
-Uses params_C.pkl to predict dynamic trajectories for Case C.
+```bibtex
+[To be added: BibTeX citation for the journal paper]
+```
 
-State_Shift_Pred_PI.py
+## License
 
-Generates prediction errors (WAPE) and 95% prediction intervals (PI) across all cases.
+[To be added: License information]
 
+## Contact
 
-⚙️ Requirements
+For questions or issues, please open an issue on GitHub or contact the authors.
 
-Python ≥ 3.8
+## Acknowledgments
 
-numpy, scipy, pandas, matplotlib, lmfit
+This work was developed to support the journal publication and is made available in response to reviewer requirements for reproducibility.
